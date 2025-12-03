@@ -9,6 +9,8 @@ void sayDigit(int n, string arr[]){
     sayDigit(n,arr);
     cout<<arr[digit];<<" ";
 }
+#include<iostream>
+using namespace std;
 int main(){
     string arr[10]={"zero","one","two","three","four","five",,"six","seven","eight","nine"};
     int n;
