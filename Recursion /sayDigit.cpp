@@ -7,12 +7,16 @@ void sayDigit(int n, string arr[]){
     n=n/10;
     // rec call
     sayDigit(n,arr);
-    cout<<arr[digit];<<" ";
+    cout<<arr[digit]<<" ";
 }
 #include<iostream>
 using namespace std;
 int main(){
-    string arr[10]={"zero","one","two","three","four","five",,"six","seven","eight","nine"};
+    string arr[10] = {
+    "zero","one","two","three","four",
+    "five","six","seven","eight","nine"
+};
+
     int n;
     cin>>n;
     cout<<endl;
